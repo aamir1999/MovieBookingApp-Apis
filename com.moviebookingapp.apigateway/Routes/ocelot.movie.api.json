@@ -1,0 +1,22 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "SwaggerKey": "movie",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "7044"
+        }
+      ],
+      "UpstreamPathTemplate": "/movie/{everything}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
+    }
+  ]
+}

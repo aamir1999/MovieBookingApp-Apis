@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>com.moviebookingapp.usermicroservice</name>
+    </assembly>
+    <members>
+        <member name="M:com.moviebookingapp.usermicroservice.Controllers.UserController.GenerateAccessToken(System.Collections.Generic.List{System.Security.Claims.Claim})">
+            <summary>
+            GenerateToken for logedinUser
+            </summary>
+            <param name="claims"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.moviebookingapp.usermicroservice.Controllers.UserController.generateResetToken">
+            <summary>
+            Generate Reset Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:com.moviebookingapp.usermicroservice.Repository.UserRepository.ValidateUser(System.String,System.String)">
+            <summary>
+            Validate new user  
+            </summary>
+            <param name="userEmail"></param>
+            <param name="userLoginId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.moviebookingapp.usermicroservice.Repository.UserRepository.ValidateLoginUser(System.String,System.String)">
+            <summary>
+            Validate if user already exists
+            </summary>
+            <param name="userEmail"></param>
+            <param name="userLoginId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.moviebookingapp.usermicroservice.Repository.UserRepository.Register(com.moviebookingapp.usermicroservice.Collection.Users)">
+            <summary>
+            Register new user into UserCollection
+            </summary>
+            <param name="users"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.moviebookingapp.usermicroservice.Repository.UserRepository.ForgotPassword(System.String)">
+            <summary>
+            validate users for forgot password
+            </summary>
+            <param name="userEmail"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.moviebookingapp.usermicroservice.Repository.UserRepository.UpdateResetToken(com.moviebookingapp.usermicroservice.Collection.Users)">
+            <summary>
+            update reset token in db
+            </summary>
+            <param name="users"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.moviebookingapp.usermicroservice.Repository.UserRepository.ValidateResetToken(System.String)">
+            <summary>
+            Validate reset token against db
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:com.moviebookingapp.usermicroservice.Repository.UserRepository.UpdatePassword(com.moviebookingapp.usermicroservice.Collection.Users)">
+            <summary>
+            Reset users password
+            </summary>
+            <param name="users"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

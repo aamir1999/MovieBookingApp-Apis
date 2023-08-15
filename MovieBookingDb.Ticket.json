@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "64d25b55d51efea30f44c6a7"
+  },
+  "email": "aamirmalik1999@gmail.com",
+  "movieName": "Paathan",
+  "theatreName": "Inox",
+  "numberOfTickets": 2,
+  "seatNumber": [
+    "A1",
+    "A2"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d25bacd51efea30f44c6a8"
+  },
+  "email": "amallick546@gmail.com",
+  "movieName": "Paathan",
+  "theatreName": "Inox",
+  "numberOfTickets": 4,
+  "seatNumber": [
+    "A3",
+    "A4",
+    "A5",
+    "A6"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d25c01d51efea30f44c6a9"
+  },
+  "email": "amallick546@gmail.com",
+  "movieName": "Paathan",
+  "theatreName": "Inox",
+  "numberOfTickets": 1,
+  "seatNumber": [
+    "A7"
+  ]
+}]

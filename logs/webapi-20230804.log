@@ -1,0 +1,142 @@
+2023-08-04 15:43:03.999 +05:30  INF  User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-04 15:43:04.404 +05:30  INF  Now listening on: https://localhost:7245
+2023-08-04 15:43:04.409 +05:30  INF  Now listening on: http://localhost:5032
+2023-08-04 15:43:04.419 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-08-04 15:43:04.423 +05:30  INF  Hosting environment: Development
+2023-08-04 15:43:04.427 +05:30  INF  Content root path: C:\Users\Hp\Desktop\com.moviebookingapp-master\MovieBookingApp\com.moviebookingapp.usermicroservice\
+2023-08-04 15:43:07.469 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/swagger/index.html - -
+2023-08-04 15:43:08.679 +05:30  WRN  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-08-04 15:43:08.691 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/swagger/index.html - - - 200 - text/html;charset=utf-8 1232.8815ms
+2023-08-04 15:43:11.016 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/_vs/browserLink - -
+2023-08-04 15:43:11.143 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.5914ms
+2023-08-04 15:43:12.292 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - -
+2023-08-04 15:43:12.860 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 567.4211ms
+2023-08-04 15:43:41.685 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%40123 - -
+2023-08-04 15:43:41.788 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 15:43:41.888 +05:30  INF  Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.usermicroservice.Models.LoginModel) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 15:43:44.076 +05:30  INF  User begins to login
+2023-08-04 15:43:46.579 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`4[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-04 15:43:46.736 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice) in 4813.6683ms
+2023-08-04 15:43:46.750 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 15:43:46.761 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%40123 - - - 200 - application/json;+charset=utf-8 5075.9783ms
+2023-08-04 15:43:52.762 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=AAmir%40123 - -
+2023-08-04 15:43:52.771 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 15:43:52.774 +05:30  INF  Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.usermicroservice.Models.LoginModel) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 15:43:52.786 +05:30  INF  User begins to login
+2023-08-04 15:43:53.441 +05:30  INF  Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2023-08-04 15:43:53.446 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice) in 664.8177ms
+2023-08-04 15:43:53.450 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 15:43:53.454 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=AAmir%40123 - - - 401 - text/plain;+charset=utf-8 691.2792ms
+2023-08-04 15:43:59.180 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%40123 - -
+2023-08-04 15:43:59.189 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 15:43:59.193 +05:30  INF  Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.usermicroservice.Models.LoginModel) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 15:43:59.201 +05:30  INF  User begins to login
+2023-08-04 15:43:59.656 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`4[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-04 15:43:59.661 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice) in 460.2366ms
+2023-08-04 15:43:59.665 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 15:43:59.668 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%40123 - - - 200 - application/json;+charset=utf-8 487.8953ms
+2023-08-04 15:44:22.467 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%40123 - -
+2023-08-04 15:44:22.476 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 15:44:22.482 +05:30  INF  Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.usermicroservice.Models.LoginModel) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 15:44:22.489 +05:30  INF  User begins to login
+2023-08-04 15:44:23.057 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`4[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-04 15:44:23.062 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice) in 573.3853ms
+2023-08-04 15:44:23.066 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 15:44:23.069 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%40123 - - - 200 - application/json;+charset=utf-8 602.1955ms
+2023-08-04 15:44:24.325 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/favicon.ico - -
+2023-08-04 15:44:24.328 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/favicon.ico - - - 404 0 - 3.2276ms
+2023-08-04 15:47:52.440 +05:30  INF  User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-04 15:47:52.722 +05:30  INF  Now listening on: https://localhost:7245
+2023-08-04 15:47:52.725 +05:30  INF  Now listening on: http://localhost:5032
+2023-08-04 15:47:52.735 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-08-04 15:47:52.739 +05:30  INF  Hosting environment: Development
+2023-08-04 15:47:52.743 +05:30  INF  Content root path: C:\Users\Hp\Desktop\com.moviebookingapp-master\MovieBookingApp\com.moviebookingapp.usermicroservice\
+2023-08-04 15:50:05.857 +05:30  INF  User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-04 15:50:06.143 +05:30  INF  Now listening on: https://localhost:7245
+2023-08-04 15:50:06.147 +05:30  INF  Now listening on: http://localhost:5032
+2023-08-04 15:50:06.157 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-08-04 15:50:06.161 +05:30  INF  Hosting environment: Development
+2023-08-04 15:50:06.166 +05:30  INF  Content root path: C:\Users\Hp\Desktop\com.moviebookingapp-master\MovieBookingApp\com.moviebookingapp.usermicroservice\
+2023-08-04 16:31:50.310 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%40123 - -
+2023-08-04 16:31:50.626 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:31:50.748 +05:30  INF  Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.usermicroservice.Models.LoginModel) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:31:52.149 +05:30  INF  User begins to login
+2023-08-04 16:31:54.817 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`4[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-04 16:31:55.027 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice) in 4257.5969ms
+2023-08-04 16:31:55.033 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:31:55.048 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%40123 - - - 200 - application/json;+charset=utf-8 4747.1106ms
+2023-08-04 16:32:34.732 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/forgot-password?Email=amallick546%40gmail.com - -
+2023-08-04 16:32:34.920 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:32:34.933 +05:30  INF  Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.usermicroservice.Models.ForgotPasswordRequest) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:32:41.103 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-04 16:32:41.135 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice) in 6195.0568ms
+2023-08-04 16:32:41.148 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:32:41.155 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/forgot-password?Email=amallick546%40gmail.com - - - 200 - application/json;+charset=utf-8 6423.6926ms
+2023-08-04 16:33:13.181 +05:30  INF  Request starting HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/reset-password application/json 176
+2023-08-04 16:33:13.194 +05:30  INF  CORS policy execution successful.
+2023-08-04 16:33:13.205 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.ResetPassword (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:33:13.214 +05:30  INF  Route matched with {action = "ResetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(com.moviebookingapp.usermicroservice.Models.ResetPasswordRequest) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:33:14.233 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-04 16:33:14.287 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.ResetPassword (com.moviebookingapp.usermicroservice) in 1065.6228ms
+2023-08-04 16:33:14.296 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.ResetPassword (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:33:14.302 +05:30  INF  Request finished HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/reset-password application/json 176 - 200 - application/json;+charset=utf-8 1121.4079ms
+2023-08-04 16:33:27.162 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%401999 - -
+2023-08-04 16:33:27.165 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:33:27.168 +05:30  INF  Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.usermicroservice.Models.LoginModel) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:33:27.176 +05:30  INF  User begins to login
+2023-08-04 16:33:27.650 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`4[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-04 16:33:27.657 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice) in 481.7484ms
+2023-08-04 16:33:27.663 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:33:27.667 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=001&UserName=Aamir1999&Email=amallick546%40gmail.com&Password=Aamir%401999 - - - 200 - application/json;+charset=utf-8 505.5129ms
+2023-08-04 16:34:43.416 +05:30  INF  Request starting HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/register application/json 352
+2023-08-04 16:34:43.419 +05:30  INF  CORS policy execution successful.
+2023-08-04 16:34:43.421 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:34:43.436 +05:30  INF  Route matched with {action = "Post", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(com.moviebookingapp.usermicroservice.Collection.Users) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:34:43.534 +05:30  INF  Seri Log is Working
+2023-08-04 16:34:43.600 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-04 16:34:43.603 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice) in 160.5434ms
+2023-08-04 16:34:43.606 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:34:43.610 +05:30  INF  Request finished HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/register application/json 352 - 400 - text/plain;+charset=utf-8 194.1268ms
+2023-08-04 16:34:56.869 +05:30  INF  Request starting HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/register application/json 352
+2023-08-04 16:34:56.871 +05:30  INF  CORS policy execution successful.
+2023-08-04 16:34:56.874 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:34:56.877 +05:30  INF  Route matched with {action = "Post", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(com.moviebookingapp.usermicroservice.Collection.Users) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:34:56.886 +05:30  INF  Seri Log is Working
+2023-08-04 16:34:56.945 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-04 16:34:56.949 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice) in 63.7255ms
+2023-08-04 16:34:56.951 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:34:56.954 +05:30  INF  Request finished HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/register application/json 352 - 400 - text/plain;+charset=utf-8 85.1366ms
+2023-08-04 16:35:15.063 +05:30  INF  Request starting HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/register application/json 351
+2023-08-04 16:35:15.065 +05:30  INF  CORS policy execution successful.
+2023-08-04 16:35:15.070 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:35:15.073 +05:30  INF  Route matched with {action = "Post", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(com.moviebookingapp.usermicroservice.Collection.Users) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:35:15.081 +05:30  INF  Seri Log is Working
+2023-08-04 16:35:15.139 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-08-04 16:35:15.144 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice) in 63.5721ms
+2023-08-04 16:35:15.147 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:35:15.150 +05:30  INF  Request finished HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/register application/json 351 - 400 - text/plain;+charset=utf-8 87.5260ms
+2023-08-04 16:35:36.160 +05:30  INF  Request starting HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/register application/json 356
+2023-08-04 16:35:36.162 +05:30  INF  CORS policy execution successful.
+2023-08-04 16:35:36.165 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:35:36.169 +05:30  INF  Route matched with {action = "Post", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(com.moviebookingapp.usermicroservice.Collection.Users) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:35:36.175 +05:30  INF  Seri Log is Working
+2023-08-04 16:35:37.392 +05:30  INF  Executing CreatedAtActionResult, writing value of type 'com.moviebookingapp.usermicroservice.Collection.Users'.
+2023-08-04 16:35:37.539 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice) in 1364.8403ms
+2023-08-04 16:35:37.543 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Post (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:35:37.545 +05:30  INF  Request finished HTTP/2 POST https://localhost:7245/api/v1.0/moviebooking/register application/json 356 - 201 - application/json;+charset=utf-8 1385.5555ms
+2023-08-04 16:36:08.361 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=1002&UserName=A1999&Email=aamirmalik1999%40gmail.com&Password=A%4012345 - -
+2023-08-04 16:36:08.364 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:36:08.367 +05:30  INF  Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.usermicroservice.Models.LoginModel) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:36:08.374 +05:30  INF  User begins to login
+2023-08-04 16:36:08.432 +05:30  INF  Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-08-04 16:36:08.436 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice) in 62.3416ms
+2023-08-04 16:36:08.440 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:36:08.444 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=1002&UserName=A1999&Email=aamirmalik1999%40gmail.com&Password=A%4012345 - - - 404 - text/plain;+charset=utf-8 83.5738ms
+2023-08-04 16:36:29.699 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=1005&UserName=A1999&Email=aamirmalik1999%40gmail.com&Password=A%4012345 - -
+2023-08-04 16:36:29.702 +05:30  INF  Executing endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:36:29.706 +05:30  INF  Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.usermicroservice.Models.LoginModel) on controller com.moviebookingapp.usermicroservice.Controllers.UserController (com.moviebookingapp.usermicroservice).
+2023-08-04 16:36:29.717 +05:30  INF  User begins to login
+2023-08-04 16:36:30.231 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`4[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-04 16:36:30.239 +05:30  INF  Executed action com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice) in 523.1426ms
+2023-08-04 16:36:30.245 +05:30  INF  Executed endpoint 'com.moviebookingapp.usermicroservice.Controllers.UserController.Get (com.moviebookingapp.usermicroservice)'
+2023-08-04 16:36:30.249 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/api/v1.0/moviebooking/login?LoginId=1005&UserName=A1999&Email=aamirmalik1999%40gmail.com&Password=A%4012345 - - - 200 - application/json;+charset=utf-8 550.0565ms

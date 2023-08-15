@@ -1,0 +1,16 @@
+2023-08-11 13:38:45.820 +05:30  INF  User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-11 13:38:46.390 +05:30  INF  Now listening on: https://localhost:7245
+2023-08-11 13:38:46.396 +05:30  INF  Now listening on: http://localhost:5032
+2023-08-11 13:38:46.409 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-08-11 13:38:46.411 +05:30  INF  Hosting environment: Development
+2023-08-11 13:38:46.415 +05:30  INF  Content root path: C:\Users\Hp\Desktop\com.moviebookingapp-master\MovieBookingApp-Apis\com.moviebookingapp.usermicroservice\
+2023-08-11 13:38:47.826 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/swagger/index.html - -
+2023-08-11 13:38:49.117 +05:30  WRN  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-08-11 13:38:49.177 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/swagger/index.html - - - 200 - text/html;charset=utf-8 1367.6440ms
+2023-08-11 13:38:49.634 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/_vs/browserLink - -
+2023-08-11 13:38:49.805 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 170.8019ms
+2023-08-11 13:38:50.994 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - -
+2023-08-11 13:38:51.171 +05:30  INF  Request starting HTTP/2 GET https://localhost:7245/swagger/favicon-32x32.png - -
+2023-08-11 13:38:51.216 +05:30  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-11 13:38:51.220 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/swagger/favicon-32x32.png - - - 200 628 image/png 48.9900ms
+2023-08-11 13:38:51.595 +05:30  INF  Request finished HTTP/2 GET https://localhost:7245/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 600.9284ms

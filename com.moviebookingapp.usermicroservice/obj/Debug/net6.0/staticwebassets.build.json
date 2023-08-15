@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "V+Xco/uKwDKzFnkLD7OdMeGiBcBdQJLdXYx7yXkcevI=",
+  "Source": "com.moviebookingapp.usermicroservice",
+  "BasePath": "_content/com.moviebookingapp.usermicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

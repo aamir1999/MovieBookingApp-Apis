@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "64c0e788d2634c4ebc8e7825"
+  },
+  "loginId": "001",
+  "firstName": "Aamir",
+  "lastName": "Nawab",
+  "userName": "Aamir1999",
+  "email": "amallick546@gmail.com",
+  "password": "$2a$11$kqKC5q7h3Cf4gZ0Jiktnkuhty1maAXLW/wAk7uTfryVB6d.YO0HSu",
+  "contactNumber": "8335817708",
+  "role": "User",
+  "resetToken": null,
+  "resetTokenExpires": null,
+  "createdBy": "string",
+  "createdOn": {
+    "$date": "2023-07-26T09:28:31.510Z"
+  },
+  "modifiedBy": "string",
+  "modifiedOn": {
+    "$date": "2023-07-26T09:28:31.510Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c0e7efd2634c4ebc8e7826"
+  },
+  "loginId": "a1",
+  "firstName": "admin",
+  "lastName": "admin",
+  "userName": "admin007",
+  "email": "admin@gmail.com",
+  "password": "$2a$11$0zch39yIDlf3xMpHJEjT/OhCmiG5bAFHWbeN6njoogoZP1/2F2DOm",
+  "contactNumber": "8335817708",
+  "role": "Admin",
+  "resetToken": null,
+  "resetTokenExpires": null,
+  "createdBy": "Admin",
+  "createdOn": {
+    "$date": "2023-07-26T09:28:31.510Z"
+  },
+  "modifiedBy": "string",
+  "modifiedOn": {
+    "$date": "2023-07-26T09:28:31.510Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c8d4cc4c6134cced20bd30"
+  },
+  "loginId": "003",
+  "firstName": "Aamir",
+  "lastName": "Malik",
+  "userName": "Aamir003",
+  "email": "aamirnawab@gmail.com",
+  "password": "$2a$11$72RnKmXOAMXU2pX1DuMaKeHKxD8v/DSGAVKnd9rmsQOuKP6ZwgNMe",
+  "contactNumber": "8335817708",
+  "role": "User",
+  "resetToken": null,
+  "resetTokenExpires": null,
+  "createdBy": null,
+  "createdOn": null,
+  "modifiedBy": null,
+  "modifiedOn": null
+},
+{
+  "_id": {
+    "$oid": "64c8d6ed4c6134cced20bd31"
+  },
+  "loginId": "007",
+  "firstName": "user1",
+  "lastName": "user1",
+  "userName": "Aamir007",
+  "email": "aamir@gmail.com",
+  "password": "$2a$11$CSFvdiPCGvK3gGrNANv/Xey78ITwHBlXNEy1ptDFrxKtgND/YeojO",
+  "contactNumber": "9790628010",
+  "role": "User",
+  "resetToken": "295CBAE1F252DF8AE6814084AF6FF02CD4A19E4EC84F29ABF0DC95DBB70F919C8B598F33F31906D4C43A8E4A92811F2400E1E113479EA6799686B71A039AF10B",
+  "resetTokenExpires": {
+    "$date": "2023-08-02T10:10:38.467Z"
+  },
+  "createdBy": "user",
+  "createdOn": {
+    "$date": "2023-08-01T09:51:58.040Z"
+  },
+  "modifiedBy": "",
+  "modifiedOn": {
+    "$date": "2023-08-01T09:51:58.040Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64c8e1524c6134cced20bd32"
+  },
+  "loginId": "1001",
+  "firstName": "Aamir",
+  "lastName": "Nawab",
+  "userName": "Aamir1001",
+  "email": "aamir1999@gmail.com",
+  "password": "$2a$11$RWkAoSLGxD4//ALZV1lAue.33V60WdMxREtk6G5MeqgT4p42PMBJu",
+  "contactNumber": "8335817708",
+  "role": "User",
+  "resetToken": null,
+  "resetTokenExpires": null,
+  "createdBy": "User",
+  "createdOn": {
+    "$date": "2023-08-01T10:39:18.498Z"
+  },
+  "modifiedBy": "User",
+  "modifiedOn": {
+    "$date": "2023-08-01T10:39:18.498Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ccdb81ea1589ccf7667cea"
+  },
+  "loginId": "1005",
+  "firstName": "Aamir",
+  "lastName": "Malik",
+  "userName": "A1999",
+  "email": "aamirmalik1999@gmail.com",
+  "password": "$2a$11$dmsIKYD3z3SbsIt1W/LoKe/wOXDpcwaIttAEnJbJ0kXNdOVaXDqMO",
+  "contactNumber": "987654309",
+  "role": "Admin",
+  "resetToken": null,
+  "resetTokenExpires": null,
+  "createdBy": "Admin",
+  "createdOn": {
+    "$date": "2023-08-04T11:03:33.914Z"
+  },
+  "modifiedBy": "Admin",
+  "modifiedOn": {
+    "$date": "2023-08-04T11:03:33.914Z"
+  }
+}]

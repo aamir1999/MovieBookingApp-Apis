@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GQUDY/G8VlOwtYLeR49wF++5PG0K0v31Jyp2ZSSNMd0=",
+  "Source": "com.moviebookingapp.apigateway",
+  "BasePath": "_content/com.moviebookingapp.apigateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

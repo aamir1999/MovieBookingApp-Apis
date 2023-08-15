@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vq99+mfb/m12Lg8L9TyjIAqZh4aUNj8K/SWVWYu9Mks=",
+  "Source": "com.moviebookingapp.moviemicroservice",
+  "BasePath": "_content/com.moviebookingapp.moviemicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

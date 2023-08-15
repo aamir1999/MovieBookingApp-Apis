@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "644bc0b9390b4730f524e48f"
+  },
+  "movieName": "Paathan",
+  "numberOfSeatsAlloted": 200,
+  "theatreName": "Inox",
+  "movieImage": "https://i.pinimg.com/736x/64/8b/a3/648ba30ac2f9e5d028e0117c69619539.jpg",
+  "remainingSeats": 194
+},
+{
+  "_id": {
+    "$oid": "644bc1d6390b4730f524e493"
+  },
+  "movieName": "Avatar",
+  "numberOfSeatsAlloted": 120,
+  "theatreName": "Central",
+  "movieImage": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_.jpg",
+  "remainingSeats": 120
+},
+{
+  "_id": {
+    "$oid": "645b3758b6fd83de8ad2dae0"
+  },
+  "movieName": "PS1",
+  "theatreName": "Inox",
+  "numberOfSeatsAlloted": 180,
+  "movieImage": "https://cdn.gulte.com/wp-content/uploads/2021/07/madrastalkies_219111943_556600405752606_8152194533213875634_n.jpg",
+  "remainingSeats": 180
+},
+{
+  "_id": {
+    "$oid": "64633ce7216cb692a72768ee"
+  },
+  "movieName": "Cindrella",
+  "theatreName": "KG",
+  "numberOfSeatsAlloted": 120,
+  "movieImage": "https://www.themoviedb.org/t/p/original/ryKwNlAfDXu0do6SX9h4G9Si1kG.jpg",
+  "remainingSeats": 120
+}]

@@ -1,0 +1,44 @@
+2023-08-03 20:10:50.183 +05:30  INF  User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-03 20:10:50.576 +05:30  INF  Now listening on: https://localhost:7245
+2023-08-03 20:10:50.585 +05:30  INF  Now listening on: http://localhost:5032
+2023-08-03 20:10:50.605 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-08-03 20:10:50.610 +05:30  INF  Hosting environment: Development
+2023-08-03 20:10:50.615 +05:30  INF  Content root path: C:\Users\Hp\Desktop\com.moviebookingapp-master\MovieBookingApp\com.moviebookingapp.usermicroservice\
+2023-08-03 20:14:10.170 +05:30  INF  User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-03 20:14:10.604 +05:30  INF  Now listening on: https://localhost:7044
+2023-08-03 20:14:10.612 +05:30  INF  Now listening on: http://localhost:5257
+2023-08-03 20:14:10.622 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-08-03 20:14:10.635 +05:30  INF  Hosting environment: Development
+2023-08-03 20:14:10.636 +05:30  INF  Content root path: C:\Users\Hp\Desktop\com.moviebookingapp-master\MovieBookingApp\com.moviebookingapp.moviemicroservice\
+2023-08-03 20:20:50.999 +05:30  INF  Request starting HTTP/2 POST https://localhost:7044/api/v1.0/moviebooking/moviename/add application/json 149
+2023-08-03 20:20:51.218 +05:30  INF  CORS policy execution successful.
+2023-08-03 20:20:52.063 +05:30  INF  Executing endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Post (com.moviebookingapp.moviemicroservice)'
+2023-08-03 20:20:52.236 +05:30  INF  Route matched with {action = "Post", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(com.moviebookingapp.moviemicroservice.Collection.Ticket) on controller com.moviebookingapp.moviemicroservice.Controllers.MovieController (com.moviebookingapp.moviemicroservice).
+2023-08-03 20:20:54.226 +05:30  INF  com.moviebookingapp.moviemicroservice.Collection.Ticket is being booked
+2023-08-03 20:20:55.472 +05:30  INF  Executing CreatedAtActionResult, writing value of type 'com.moviebookingapp.moviemicroservice.Collection.Ticket'.
+2023-08-03 20:20:55.780 +05:30  INF  Executed action com.moviebookingapp.moviemicroservice.Controllers.MovieController.Post (com.moviebookingapp.moviemicroservice) in 3506.0494ms
+2023-08-03 20:20:55.791 +05:30  INF  Executed endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Post (com.moviebookingapp.moviemicroservice)'
+2023-08-03 20:20:55.823 +05:30  INF  Request finished HTTP/2 POST https://localhost:7044/api/v1.0/moviebooking/moviename/add application/json 149 - 201 - application/json;+charset=utf-8 4830.9731ms
+2023-08-03 20:24:43.806 +05:30  INF  Request starting HTTP/2 GET https://localhost:7044/swagger/index.html - -
+2023-08-03 20:24:44.423 +05:30  WRN  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-08-03 20:24:44.425 +05:30  INF  Request finished HTTP/2 GET https://localhost:7044/swagger/index.html - - - 200 - text/html;charset=utf-8 619.6154ms
+2023-08-03 20:24:44.929 +05:30  INF  Request starting HTTP/2 GET https://localhost:7044/_vs/browserLink - -
+2023-08-03 20:24:45.049 +05:30  INF  Request finished HTTP/2 GET https://localhost:7044/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 119.4883ms
+2023-08-03 20:24:46.151 +05:30  INF  Request starting HTTP/2 GET https://localhost:7044/swagger/v1/swagger.json - -
+2023-08-03 20:24:46.408 +05:30  INF  Request finished HTTP/2 GET https://localhost:7044/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 256.4071ms
+2023-08-03 20:25:35.091 +05:30  INF  Request starting HTTP/2 POST https://localhost:7044/api/v1.0/moviebooking/moviename/add application/json 149
+2023-08-03 20:25:35.097 +05:30  INF  CORS policy execution successful.
+2023-08-03 20:25:35.103 +05:30  INF  Executing endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Post (com.moviebookingapp.moviemicroservice)'
+2023-08-03 20:25:35.108 +05:30  INF  Route matched with {action = "Post", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(com.moviebookingapp.moviemicroservice.Collection.Ticket) on controller com.moviebookingapp.moviemicroservice.Controllers.MovieController (com.moviebookingapp.moviemicroservice).
+2023-08-03 20:25:35.117 +05:30  INF  com.moviebookingapp.moviemicroservice.Collection.Ticket is being booked
+2023-08-03 20:25:35.180 +05:30  INF  Executing CreatedAtActionResult, writing value of type 'com.moviebookingapp.moviemicroservice.Collection.Ticket'.
+2023-08-03 20:25:35.185 +05:30  INF  Executed action com.moviebookingapp.moviemicroservice.Controllers.MovieController.Post (com.moviebookingapp.moviemicroservice) in 69.3351ms
+2023-08-03 20:25:35.189 +05:30  INF  Executed endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Post (com.moviebookingapp.moviemicroservice)'
+2023-08-03 20:25:35.193 +05:30  INF  Request finished HTTP/2 POST https://localhost:7044/api/v1.0/moviebooking/moviename/add application/json 149 - 201 - application/json;+charset=utf-8 102.0092ms
+2023-08-03 20:26:49.747 +05:30  INF  Request starting HTTP/2 GET https://localhost:7044/swagger/index.html - -
+2023-08-03 20:26:49.774 +05:30  WRN  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-08-03 20:26:49.779 +05:30  INF  Request finished HTTP/2 GET https://localhost:7044/swagger/index.html - - - 200 - text/html;charset=utf-8 31.9722ms
+2023-08-03 20:26:49.930 +05:30  INF  Request starting HTTP/2 GET https://localhost:7044/_vs/browserLink - -
+2023-08-03 20:26:49.944 +05:30  INF  Request finished HTTP/2 GET https://localhost:7044/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.0193ms
+2023-08-03 20:26:51.815 +05:30  INF  Request starting HTTP/2 GET https://localhost:7044/swagger/v1/swagger.json - -
+2023-08-03 20:26:51.831 +05:30  INF  Request finished HTTP/2 GET https://localhost:7044/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.0572ms

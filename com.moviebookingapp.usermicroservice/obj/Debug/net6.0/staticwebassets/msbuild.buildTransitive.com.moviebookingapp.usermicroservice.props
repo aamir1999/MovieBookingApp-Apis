@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\com.moviebookingapp.usermicroservice.props" />
+</Project>

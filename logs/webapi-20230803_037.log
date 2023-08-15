@@ -1,0 +1,12 @@
+2023-08-03 20:09:43.088 +05:30  INF  User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-03 20:09:43.463 +05:30  INF  Now listening on: https://localhost:7245
+2023-08-03 20:09:43.465 +05:30  INF  Now listening on: http://localhost:5032
+2023-08-03 20:09:43.473 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-08-03 20:09:43.475 +05:30  INF  Hosting environment: Development
+2023-08-03 20:09:43.478 +05:30  INF  Content root path: C:\Users\Hp\Desktop\com.moviebookingapp-master\MovieBookingApp\com.moviebookingapp.usermicroservice\
+2023-08-03 20:10:34.028 +05:30  INF  User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-03 20:10:34.420 +05:30  INF  Now listening on: https://localhost:7044
+2023-08-03 20:10:34.424 +05:30  INF  Now listening on: http://localhost:5257
+2023-08-03 20:10:34.433 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-08-03 20:10:34.436 +05:30  INF  Hosting environment: Development
+2023-08-03 20:10:34.437 +05:30  INF  Content root path: C:\Users\Hp\Desktop\com.moviebookingapp-master\MovieBookingApp\com.moviebookingapp.moviemicroservice\

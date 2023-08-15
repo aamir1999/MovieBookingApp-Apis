@@ -1,0 +1,110 @@
+2023-08-05 02:09:02.635 +05:30  INF  User profile is available. Using 'C:\Users\Hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-05 02:09:02.987 +05:30  INF  Now listening on: https://localhost:7044
+2023-08-05 02:09:02.990 +05:30  INF  Now listening on: http://localhost:5257
+2023-08-05 02:09:02.998 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2023-08-05 02:09:03.001 +05:30  INF  Hosting environment: Development
+2023-08-05 02:09:03.005 +05:30  INF  Content root path: C:\Users\Hp\Desktop\com.moviebookingapp-master\MovieBookingApp\com.moviebookingapp.moviemicroservice\
+2023-08-05 02:10:06.753 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/swagger/v1/swagger.json - 0
+2023-08-05 02:10:07.481 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/swagger/v1/swagger.json - 0 - 200 - application/json;charset=utf-8 737.9007ms
+2023-08-05 02:10:15.395 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all - 0
+2023-08-05 02:10:16.200 +05:30  INF  Executing endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:10:16.311 +05:30  INF  Route matched with {action = "Get", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller com.moviebookingapp.moviemicroservice.Controllers.MovieController (com.moviebookingapp.moviemicroservice).
+2023-08-05 02:10:17.681 +05:30  INF  Get all movies available
+2023-08-05 02:10:19.468 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[com.moviebookingapp.moviemicroservice.Collection.Movie, com.moviebookingapp.moviemicroservice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-05 02:10:19.883 +05:30  INF  Executed action com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice) in 3534.8797ms
+2023-08-05 02:10:19.894 +05:30  INF  Executed endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:10:19.909 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all - 0 - 200 - application/json;+charset=utf-8 4514.4051ms
+2023-08-05 02:11:41.590 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0
+2023-08-05 02:11:41.621 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:11:41.631 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0 - 404 0 - 41.1662ms
+2023-08-05 02:12:15.166 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0
+2023-08-05 02:12:15.169 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:12:15.178 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0 - 404 0 - 12.0278ms
+2023-08-05 02:12:30.501 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0
+2023-08-05 02:12:30.504 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:12:30.506 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0 - 404 0 - 4.8451ms
+2023-08-05 02:14:49.027 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0
+2023-08-05 02:14:49.029 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:14:49.032 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0 - 404 0 - 5.3576ms
+2023-08-05 02:14:55.754 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0
+2023-08-05 02:14:55.756 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:14:55.759 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/all - 0 - 404 0 - 5.0697ms
+2023-08-05 02:15:06.821 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/movies/search/moviename?moviename=Paathan - 0
+2023-08-05 02:15:06.823 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:15:06.826 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/movies/search/moviename?moviename=Paathan - 0 - 404 0 - 5.1529ms
+2023-08-05 02:15:14.348 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/movies/search/moviename?moviename=PS1 - 0
+2023-08-05 02:15:14.353 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:15:14.360 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all/movies/search/moviename?moviename=PS1 - 0 - 404 0 - 11.7837ms
+2023-08-05 02:15:30.142 +05:30  INF  Request starting HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking/all/moviename/update/ticket application/json 40
+2023-08-05 02:15:30.144 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:15:30.147 +05:30  INF  Request finished HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking/all/moviename/update/ticket application/json 40 - 404 0 - 5.1547ms
+2023-08-05 02:16:06.398 +05:30  INF  Request starting HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking//moviename/update/ticket application/json 40
+2023-08-05 02:16:06.401 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:16:06.404 +05:30  INF  Request finished HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking//moviename/update/ticket application/json 40 - 404 0 - 6.3076ms
+2023-08-05 02:16:13.311 +05:30  INF  Request starting HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking//moviename/update/ticket application/json 40
+2023-08-05 02:16:13.313 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:16:13.316 +05:30  INF  Request finished HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking//moviename/update/ticket application/json 40 - 404 0 - 4.9700ms
+2023-08-05 02:16:14.174 +05:30  INF  Request starting HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking//moviename/update/ticket application/json 40
+2023-08-05 02:16:14.177 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:16:14.180 +05:30  INF  Request finished HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking//moviename/update/ticket application/json 40 - 404 0 - 5.6178ms
+2023-08-05 02:17:13.023 +05:30  INF  Request starting HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking//moviename/update/ticket application/json 40
+2023-08-05 02:17:13.026 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:17:13.029 +05:30  INF  Request finished HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking//moviename/update/ticket application/json 40 - 404 0 - 6.3392ms
+2023-08-05 02:17:36.884 +05:30  INF  Request starting HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking/moviename/update/ticket application/json 49
+2023-08-05 02:17:36.889 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:17:36.894 +05:30  INF  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2023-08-05 02:17:36.903 +05:30  INF  AuthenticationScheme: Bearer was forbidden.
+2023-08-05 02:17:36.909 +05:30  INF  Request finished HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking/moviename/update/ticket application/json 49 - 403 0 - 23.7500ms
+2023-08-05 02:18:23.194 +05:30  INF  Request starting HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking/moviename/update/ticket application/json 40
+2023-08-05 02:18:23.198 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:18:23.201 +05:30  INF  Executing endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Put (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:23.234 +05:30  INF  Route matched with {action = "Put", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(com.moviebookingapp.moviemicroservice.Models.GetMovieRequest) on controller com.moviebookingapp.moviemicroservice.Controllers.MovieController (com.moviebookingapp.moviemicroservice).
+2023-08-05 02:18:23.951 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-05 02:18:23.981 +05:30  INF  Executed action com.moviebookingapp.moviemicroservice.Controllers.MovieController.Put (com.moviebookingapp.moviemicroservice) in 740.2117ms
+2023-08-05 02:18:23.988 +05:30  INF  Executed endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Put (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:23.996 +05:30  INF  Request finished HTTP/1.1 PUT https://localhost:7044/api/v1.0/moviebooking/moviename/update/ticket application/json 40 - 200 - application/json;+charset=utf-8 801.9470ms
+2023-08-05 02:18:24.234 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all - 0
+2023-08-05 02:18:24.236 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:18:24.238 +05:30  INF  Executing endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:24.240 +05:30  INF  Route matched with {action = "Get", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller com.moviebookingapp.moviemicroservice.Controllers.MovieController (com.moviebookingapp.moviemicroservice).
+2023-08-05 02:18:24.245 +05:30  INF  Get all movies available
+2023-08-05 02:18:24.290 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[com.moviebookingapp.moviemicroservice.Collection.Movie, com.moviebookingapp.moviemicroservice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-05 02:18:24.294 +05:30  INF  Executed action com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice) in 49.3575ms
+2023-08-05 02:18:24.297 +05:30  INF  Executed endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:24.300 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all - 0 - 200 - application/json;+charset=utf-8 66.4164ms
+2023-08-05 02:18:37.650 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/movies/getBookedMovieDetails/?moviename=Paathan&theatreName=Inox - 0
+2023-08-05 02:18:37.652 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:18:37.654 +05:30  INF  Executing endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:37.668 +05:30  INF  Route matched with {action = "Get", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(com.moviebookingapp.moviemicroservice.Models.GetMovieRequest) on controller com.moviebookingapp.moviemicroservice.Controllers.MovieController (com.moviebookingapp.moviemicroservice).
+2023-08-05 02:18:37.744 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-08-05 02:18:37.748 +05:30  INF  Executed action com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice) in 72.6695ms
+2023-08-05 02:18:37.750 +05:30  INF  Executed endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:37.754 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/movies/getBookedMovieDetails/?moviename=Paathan&theatreName=Inox - 0 - 200 - application/json;+charset=utf-8 104.1990ms
+2023-08-05 02:18:50.114 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7044/api/v1.0/moviebooking/moviename/add application/json 124
+2023-08-05 02:18:50.117 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:18:50.121 +05:30  INF  Executing endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Post (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:50.128 +05:30  INF  Route matched with {action = "Post", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(com.moviebookingapp.moviemicroservice.Collection.Ticket) on controller com.moviebookingapp.moviemicroservice.Controllers.MovieController (com.moviebookingapp.moviemicroservice).
+2023-08-05 02:18:50.157 +05:30  INF  com.moviebookingapp.moviemicroservice.Collection.Ticket is being booked
+2023-08-05 02:18:50.575 +05:30  INF  Executing CreatedAtActionResult, writing value of type 'com.moviebookingapp.moviemicroservice.Collection.Ticket'.
+2023-08-05 02:18:50.691 +05:30  INF  Executed action com.moviebookingapp.moviemicroservice.Controllers.MovieController.Post (com.moviebookingapp.moviemicroservice) in 555.5932ms
+2023-08-05 02:18:50.698 +05:30  INF  Executed endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Post (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:50.704 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7044/api/v1.0/moviebooking/moviename/add application/json 124 - 201 - application/json;+charset=utf-8 589.8915ms
+2023-08-05 02:18:51.004 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all - 0
+2023-08-05 02:18:51.006 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:18:51.008 +05:30  INF  Executing endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:51.011 +05:30  INF  Route matched with {action = "Get", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller com.moviebookingapp.moviemicroservice.Controllers.MovieController (com.moviebookingapp.moviemicroservice).
+2023-08-05 02:18:51.016 +05:30  INF  Get all movies available
+2023-08-05 02:18:51.060 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[com.moviebookingapp.moviemicroservice.Collection.Movie, com.moviebookingapp.moviemicroservice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-05 02:18:51.064 +05:30  INF  Executed action com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice) in 48.0245ms
+2023-08-05 02:18:51.068 +05:30  INF  Executed endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:18:51.072 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all - 0 - 200 - application/json;+charset=utf-8 68.3359ms
+2023-08-05 02:19:02.221 +05:30  INF  Request starting HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all - 0
+2023-08-05 02:19:02.223 +05:30  INF  CORS policy execution successful.
+2023-08-05 02:19:02.225 +05:30  INF  Executing endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:19:02.229 +05:30  INF  Route matched with {action = "Get", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller com.moviebookingapp.moviemicroservice.Controllers.MovieController (com.moviebookingapp.moviemicroservice).
+2023-08-05 02:19:02.236 +05:30  INF  Get all movies available
+2023-08-05 02:19:02.282 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[com.moviebookingapp.moviemicroservice.Collection.Movie, com.moviebookingapp.moviemicroservice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-05 02:19:02.290 +05:30  INF  Executed action com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice) in 54.4079ms
+2023-08-05 02:19:02.298 +05:30  INF  Executed endpoint 'com.moviebookingapp.moviemicroservice.Controllers.MovieController.Get (com.moviebookingapp.moviemicroservice)'
+2023-08-05 02:19:02.305 +05:30  INF  Request finished HTTP/1.1 GET https://localhost:7044/api/v1.0/moviebooking/all - 0 - 200 - application/json;+charset=utf-8 84.5086ms
